@@ -1,0 +1,93 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Header dan navigasi */
+header {
+    background-color: #ff7f50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    display:flex;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff7f50;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+/* Formulir kontak */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff7f50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e67342;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff7f50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
